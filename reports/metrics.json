@@ -1,0 +1,199 @@
+{
+  "feature_policy": {
+    "used": [
+      "File Size (KB)"
+    ],
+    "excluded_for_leakage": [
+      "Filename",
+      "Full Path"
+    ],
+    "excluded_as_constant": [
+      "Extension",
+      "Width",
+      "Height",
+      "Channels",
+      "Color Mode"
+    ]
+  },
+  "validation": {
+    "accuracy": 0.4094736842105263,
+    "balanced_accuracy": 0.36273394930111347,
+    "macro_f1": 0.327463397244737,
+    "classification_report": {
+      "Mild_Demented": {
+        "precision": 0.16071428571428573,
+        "recall": 0.3358208955223881,
+        "f1-score": 0.21739130434782608,
+        "support": 134.0
+      },
+      "Non_Demented": {
+        "precision": 0.5487364620938628,
+        "recall": 0.6333333333333333,
+        "f1-score": 0.5880077369439072,
+        "support": 480.0
+      },
+      "Very_Mild_Demented": {
+        "precision": 0.3448275862068966,
+        "recall": 0.11904761904761904,
+        "f1-score": 0.17699115044247787,
+        "support": 336.0
+      },
+      "accuracy": 0.4094736842105263,
+      "macro avg": {
+        "precision": 0.35142611133834833,
+        "recall": 0.36273394930111347,
+        "f1-score": 0.327463397244737,
+        "support": 950.0
+      },
+      "weighted avg": {
+        "precision": 0.4218855632171428,
+        "recall": 0.4094736842105263,
+        "f1-score": 0.39036123690984914,
+        "support": 950.0
+      }
+    },
+    "labels": [
+      "Mild_Demented",
+      "Non_Demented",
+      "Very_Mild_Demented"
+    ],
+    "confusion_matrix": [
+      [
+        45,
+        70,
+        19
+      ],
+      [
+        119,
+        304,
+        57
+      ],
+      [
+        116,
+        180,
+        40
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.4185068349106204,
+    "balanced_accuracy": 0.3693562610229277,
+    "macro_f1": 0.34029807663688594,
+    "classification_report": {
+      "Mild_Demented": {
+        "precision": 0.16988416988416988,
+        "recall": 0.32592592592592595,
+        "f1-score": 0.2233502538071066,
+        "support": 135.0
+      },
+      "Non_Demented": {
+        "precision": 0.5352112676056338,
+        "recall": 0.6333333333333333,
+        "f1-score": 0.5801526717557252,
+        "support": 480.0
+      },
+      "Very_Mild_Demented": {
+        "precision": 0.4032258064516129,
+        "recall": 0.1488095238095238,
+        "f1-score": 0.21739130434782608,
+        "support": 336.0
+      },
+      "accuracy": 0.4185068349106204,
+      "macro avg": {
+        "precision": 0.36944041464713884,
+        "recall": 0.3693562610229277,
+        "f1-score": 0.34029807663688594,
+        "support": 951.0
+      },
+      "weighted avg": {
+        "precision": 0.4367188668273492,
+        "recall": 0.4185068349106204,
+        "f1-score": 0.40133443214256265,
+        "support": 951.0
+      }
+    },
+    "labels": [
+      "Mild_Demented",
+      "Non_Demented",
+      "Very_Mild_Demented"
+    ],
+    "confusion_matrix": [
+      [
+        44,
+        70,
+        21
+      ],
+      [
+        123,
+        304,
+        53
+      ],
+      [
+        92,
+        194,
+        50
+      ]
+    ]
+  },
+  "baseline_test": {
+    "accuracy": 0.5047318611987381,
+    "balanced_accuracy": 0.3333333333333333,
+    "macro_f1": 0.2236198462613557,
+    "classification_report": {
+      "Mild_Demented": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 135.0
+      },
+      "Non_Demented": {
+        "precision": 0.5047318611987381,
+        "recall": 1.0,
+        "f1-score": 0.6708595387840671,
+        "support": 480.0
+      },
+      "Very_Mild_Demented": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 336.0
+      },
+      "accuracy": 0.5047318611987381,
+      "macro avg": {
+        "precision": 0.1682439537329127,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.2236198462613557,
+        "support": 951.0
+      },
+      "weighted avg": {
+        "precision": 0.2547542517091423,
+        "recall": 0.5047318611987381,
+        "f1-score": 0.3386041836134093,
+        "support": 951.0
+      }
+    },
+    "labels": [
+      "Mild_Demented",
+      "Non_Demented",
+      "Very_Mild_Demented"
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        135,
+        0
+      ],
+      [
+        0,
+        480,
+        0
+      ],
+      [
+        0,
+        336,
+        0
+      ]
+    ]
+  },
+  "warning": "Metadata-only model. Not suitable for diagnosis or clinical decision-making."
+}
